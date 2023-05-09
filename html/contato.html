@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>SMN - Contato</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/contato.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <img src="../img/icons/smn__logo.png" id="logo" alt="logo da SMN">
+        <h1>Eletrotécnica e mecânica industrial</h1>
+        <nav id="navbar">
+            <a href="../index.html">Início</a>
+            <a href="./contato.html">Contato</a>
+            <a href="./sobre.html">Sobre</a>
+        </nav>
+
+        <div id="base">
+            <div id="contato__whatsapp"> 
+                <h2>Você pode entrar em contato pelo whatsapp</h2>
+                <a href="tel:11999999999"> 
+                    <img src="../img/icons/whatsapp__icon.png" alt="icone do whatsapp">
+                    (11)99999-9999
+                </a>
+            </div>
+                <h2 class="contato__opcao">Ou</h2>
+            <form id="formulario">
+                <h2>Envie uma mensagem</h2>
+
+                <label for="nomeResponsavel" class="formulario__label">Nome do responsável</label>
+                <input id="nomeResponsavel" class="inputPadrao" type="text" required="">
+
+                <label for="empresa" class="formulario__label">Nome da empresa</label>
+                <input id="empresa" class="inputPadrao" type="text">
+
+                <label for="localizacaoEmpresa" class="formulario__label">Endereço da empresa</label>
+                <input id="localizacaoEmpresa" class="inputPadrao" type="text">
+
+                <label for="telefoneResponsavel" class="formulario__label">Telefone de contato</label>
+                <input id="telefoneResponsavel" class="inputPadrao" type="tel" required="" placeholder="(xx)xxxxxx-xxxx">
+
+                <label for="mensagem" class="formulario__label">Descreva o problema</label>
+                <textarea id="mensagem" class="inputPadrao" cols="50" rows="10" required=""></textarea>
+
+                <input class="formulario__envio" type="submit" value="Enviar mensagem">
+            </form>
+        </div>
+
+        <div id="fixed__contato">
+            <a href="tel:11999999999">
+                <img src="../img/icons/whatsapp__icon.png" alt="logo do Whatsapp">
+                <div id="fixed__mensagem">
+                    <p>Entre em contato por Whatsapp!</p>
+                    <p>(11)99999-9999</p>
+                </div>
+            </a>
+        </div>
+        
+        <footer>
+            <img src="../img/icons/smn__icon.png" alt="SMN logotipo">
+            <p>Copyright © 2023. SMN Eletrotécnica - Todos os Direitos Reservados</p>
+        </footer>
+    </body>
+</html>

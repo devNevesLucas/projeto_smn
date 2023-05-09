@@ -1,0 +1,99 @@
+#formulario, #contato__whatsapp {
+    width: 70%;
+    background-color: #EDEDED;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+#contato__whatsapp {
+    padding: 15px 0 35px;
+}
+
+#contato__whatsapp h2 {
+    color: #212529;
+    text-align: center;
+}
+
+#contato__whatsapp a {
+    color: #0B132B;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    font-size: 20px;
+}
+
+#contato__whatsapp img {
+    height: 48px;
+    padding: 0 10px;
+}
+
+.contato__opcao {
+    color: #FDFDFD;
+}
+
+.inputPadrao {
+    width: 60%;
+    height: 35px;
+    border: solid 1px #0B132B;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #FDFDFD;
+
+}
+
+.formulario__label {
+    width: 60%;
+    padding: 0 20px;
+    margin: 20px 0 5px;
+}
+
+#mensagem {
+    height: 260px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.formulario__envio {
+    width: 60%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #f27405;
+    color: #FDFDFD;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    margin: 20px 0;
+    transition: all .5s;
+}
+
+.formulario__envio:hover {
+    background-color: #ff8011;
+    font-size: 22px;
+    width: 64%;
+    height: 54px;
+}
+
+@media screen and (max-width: 400px) {
+
+    #formulario, #contato__whatsapp {
+        width: 100%;
+    }
+
+    .inputPadrao, .formulario__label {
+        width: 80%;
+    }
+
+    .formulario__envio {
+        width: 70%;
+        height: 60px;
+
+    }
+
+    .formulario__envio:hover {
+        width: 74%;
+        height: 64px;
+    }
+
+}

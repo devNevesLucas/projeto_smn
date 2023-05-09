@@ -1,0 +1,18 @@
+.sobre__paragrafo {
+    width: 75%;
+    color: #0B132B;
+}
+
+.sobre__divs {
+    background-color: #FDFDFD;
+}
+
+#sobre__svg {
+    width: 60%;
+}
+
+@media screen and (max-width: 400px) {
+    #sobre__svg {
+        width: 100%;
+    }
+}
